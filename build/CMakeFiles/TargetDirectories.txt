@@ -1,6 +1,0 @@
-/home/sitb157/effective_modern_cpp/build/CMakeFiles/rebuild_cache.dir
-/home/sitb157/effective_modern_cpp/build/CMakeFiles/edit_cache.dir
-/home/sitb157/effective_modern_cpp/build/CMakeFiles/main.dir
-/home/sitb157/effective_modern_cpp/build/lib/CMakeFiles/rebuild_cache.dir
-/home/sitb157/effective_modern_cpp/build/lib/CMakeFiles/edit_cache.dir
-/home/sitb157/effective_modern_cpp/build/lib/CMakeFiles/shape.dir
