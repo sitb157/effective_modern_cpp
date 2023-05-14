@@ -1,0 +1,11 @@
+name: Practice Actions
+
+on: [push]
+
+jobs: 
+  build:
+    runs-on: ubuntu-latest
+
+    steps: 
+      - name: Run
+        run: echo Test
