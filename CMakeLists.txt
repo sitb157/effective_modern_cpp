@@ -7,7 +7,11 @@ project(
   LANGUAGES CXX)
 
 add_subdirectory(lib)
+add_subdirectory(test)
 
 add_executable (main main.cpp)
 
 target_link_libraries(main shape)
+
+include (CTest)
+add_test(test_1 test/test_1)

@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../includes/shape.h
+
+/home/sitb157/effective_modern_cpp/lib/shape.cpp
+shape.h
+/home/sitb157/effective_modern_cpp/lib/shape.h
+
