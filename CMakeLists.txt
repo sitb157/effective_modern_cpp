@@ -11,7 +11,8 @@ add_subdirectory(test)
 
 add_executable (main main.cpp)
 
-target_link_libraries(main shape)
+target_link_libraries(main shape namespaces)
 
 include (CTest)
 add_test(test_1 test/test_1)
+add_test(test_2 test/test_2)

@@ -8,9 +8,12 @@ project(
 )
 
 include_directories(../lib)
-add_executable(test_1 test.cpp)
+add_executable(test_1 test_1.cpp)
+add_executable(test_2 test_2.cpp)
 add_dependencies(test_1 shape)
+add_dependencies(test_2 namespaces)
 target_link_libraries(test_1 shape)
+target_link_libraries(test_2 namespaces)
 
 
 
